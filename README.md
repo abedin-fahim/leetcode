@@ -5,6 +5,7 @@ In this repository, I'll be documenting my solutions to various LeetCode problem
 | Problem Number | | Solution Link |
 |-------------|--------|------|
 | [Problem 69](https://leetcode.com/problems/sqrtx/)    | | [Solution](https://github.com/abedin-fahim/leetcode/blob/main/69/brute-force.cpp) |
+| [Problem 1929](https://leetcode.com/problems/concatenation-of-array/)    | | [Solution](https://github.com/abedin-fahim/leetcode/blob/main/1929/main.cpp) |
 
 
 
