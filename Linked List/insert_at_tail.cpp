@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Node
-{
+class Node {
 public:
   int data;
   Node *next;
@@ -14,8 +13,7 @@ public:
   }
 };
 
-void insertAtTail(Node *&head, int val)
-{
+void insertAtTail(Node *&head, int val){
   Node *newNode = new Node(val);
   if (head == NULL)
   {
@@ -30,8 +28,7 @@ void insertAtTail(Node *&head, int val)
   temp->next = newNode;
 }
 
-void printLinkedList(Node *head)
-{
+void printLinkedList(Node *head){
   Node *temp = head;
   while (temp != NULL)
   {
@@ -40,8 +37,7 @@ void printLinkedList(Node *head)
   }
 }
 
-int main()
-{
+int main(){
   Node *head = NULL;
   cout << "Option 1: Insert at tail" << endl;
   int op;
